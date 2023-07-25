@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Brust</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <!-- tailwind & daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google font lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- tailwind custom classes -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'bike-primary': '#E76F51',
+                        'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/0fa9f2c3d6.js" crossorigin="anonymous"></script>
+
+    <!-- custom styles -->
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="font-lato">
+    <header>
+        <!-- navbar starts -->
+        <nav class="w-4/5 m-auto rounded-full mt-10 mb-10 pr-8 pl-8 pt-2 pb-2 bg-[#F85559] text-white">
+            <div class="navbar">
+                <div class="list-none gap-6 text-sm font-medium">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">All Fruits</a></li>
+                </div>
+                <div class="flex-1 flex justify-center">
+                    <img class="w-8 ml-6" src="images/logo.png" alt="">
+                    <a class="btn btn-ghost normal-case text-xl font-bold">Fruit Brust</a>
+                </div>
+                <div class="flex-none gap-2">
+                    <div class="form-control inline relative">
+                        <input type="text" placeholder="Search here" class="text-sm input input-bordered h-10 w-24 md:w-80 rounded-full" />
+                        <button class="absolute right-6 top-2 text-gray-500" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main></main>
+
+    <footer></footer>
 </body>
+
 </html>
