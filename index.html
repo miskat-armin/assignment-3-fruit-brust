@@ -414,9 +414,6 @@
             <button
                 class="bg-[#F85559] border-none text-white py-4 w-[100px] rounded-md sm:w-[100px] md:w-[100px] lg:w-[100px] mt-6 sm:ml-[200px] md:ml-[300px] lg:ml-[460px]">Shop
                 All</button>
-            <!-- <button
-                class="bg-[#F85559] border-none text-white py-4 w-[100px] rounded-md sm:ml-[200px] md:ml-[300px] lg:ml-[460px]">Shop
-                All</button> -->
 
         </section>
 
@@ -479,10 +476,10 @@
         </section>
 
         <!-- why choose us section starts -->
-        <section>
-            <div>
+        <section >
+            <div class="flex flex-col">
                 <!-- choose us header & paragraph section -->
-                <div class="flex flex-col items-center gap-6 py-20 px-40">
+                <div class="flex flex-col items-center gap-6 py-20">
                     <div>
                         <h3 class="text-3xl font-extrabold">Why Choose Us</h3>
                     </div>
@@ -495,14 +492,14 @@
                     </div>
                 </div>
 
-                <div class="flex gap-6 -mt-7">
+                <div class="flex flex-col lg:flex-row gap-6 -mt-7">
                     <!-- choose us left side section -->
-                    <div>
-                        <div class="flex items-center gap-4">
+                    <div class="order-2 lg:order-1">
+                        <div class="flex flex-col lg:flex-row justify-center items-center gap-4">
                             <div class="border-2 bg-gray-200 rounded-full w-12 p-2">
                                 <img class="w-8" src="./images/group 1.png" alt="">
                             </div>
-                            <div class="mb-8">
+                            <div class="mb-8 flex items-center lg:items-start flex-col">
                                 <h4 class="text-xl font-extrabold pb-1">Dedicated Team</h4>
                                 <hr class="w-24">
                                 <p class="text-sm font-medium pt-1">Professional employees are there for you to pick the
@@ -510,11 +507,11 @@
                                     fruits.</p>
                             </div>
                         </div>
-                        <div class="flex items-center gap-4">
+                        <div class="flex flex-col lg:flex-row justify-center items-center gap-4">
                             <div class="border-2 bg-gray-200 rounded-full w-12 p-2">
                                 <img class="w-8" src="./images/love 1.png" alt="">
                             </div>
-                            <div class="mb-8">
+                            <div class="mb-8  flex items-center lg:items-start flex-col">
                                 <h4 class="text-xl font-extrabold pb-1">Fresh is Best</h4>
                                 <hr class="w-24">
                                 <p class="text-sm font-medium pt-1">Professional employees are there for you to pick the
@@ -522,11 +519,11 @@
                                     fruits.</p>
                             </div>
                         </div>
-                        <div class="flex items-center gap-4">
+                        <div class="flex flex-col lg:flex-row justify-center items-center gap-4">
                             <div class="border-2 bg-gray-200 rounded-full w-12 p-2">
                                 <img class="w-8" src="./images/gift-box 1.png" alt="">
                             </div>
-                            <div class="mb-8">
+                            <div class="mb-8  flex items-center lg:items-start flex-col">
                                 <h4 class="text-xl font-extrabold pb-1">Gift Certificates</h4>
                                 <hr class="w-24">
                                 <p class="text-sm font-medium pt-1">Professional employees are there for you to pick the
@@ -537,17 +534,17 @@
                     </div>
 
                     <!-- middle image section -->
-                    <div>
+                    <div class="order-1 lg-order:2">
                         <img class="w-[480px] h-[320px] -mt-3" src="./images/whychoose1.png" alt="">
                     </div>
 
                     <!-- choose us right side section -->
-                    <div>
-                        <div class="flex items-center gap-4">
-                            <div class="mb-8">
+                    <div class="order-3 lg-order:3">
+                        <div class="flex flex-col-reverse lg:flex-row justify-center items-center gap-4">
+                            <div class="mb-8  flex items-center lg:items-end flex-col">
                                 <h4 class="text-xl font-extrabold pb-1 flex justify-end">Integrated Supplier</h4>
-                                <hr class="w-24 ml-auto">
-                                <p class="text-sm font-medium pt-1 text-right">Professional employees are there for you
+                                <hr class="w-24 lg:ml-auto">
+                                <p class="text-sm font-medium pt-1 text-left lg:text-right">Professional employees are there for you
                                     to pick the most amazing and fresh
                                     fruits.</p>
                             </div>
@@ -555,11 +552,11 @@
                                 <img class="w-8" src="./images/fruit 1.png" alt="">
                             </div>
                         </div>
-                        <div class="flex items-center gap-4">
-                            <div class="mb-8">
+                        <div class="flex flex-col-reverse lg:flex-row justify-center items-center gap-4">
+                            <div class="mb-8  flex items-center lg:items-end flex-col">
                                 <h4 class="text-xl font-extrabold pb-1 flex justify-end">Sustainable Practice</h4>
-                                <hr class="w-24 ml-auto">
-                                <p class="text-sm font-medium pt-1 text-right">Professional employees are there for you
+                                <hr class="w-24 lg:ml-auto">
+                                <p class="text-sm font-medium pt-1 text-left lg:text-right">Professional employees are there for you
                                     to pick the most amazing and fresh
                                     fruits.</p>
                             </div>
@@ -567,11 +564,11 @@
                                 <img class="w-8" src="./images/ice-cream 1.png" alt="">
                             </div>
                         </div>
-                        <div class="flex items-center gap-4">
-                            <div class="mb-8">
+                        <div class="flex flex-col-reverse lg:flex-row justify-center items-center gap-4">
+                            <div class="mb-8  flex items-center lg:items-end flex-col">
                                 <h4 class="text-xl font-extrabold pb-1  flex justify-end">The Benefits Only</h4>
-                                <hr class="w-24 ml-auto">
-                                <p class="text-sm font-medium pt-1 text-right">Professional employees are there for you
+                                <hr class="w-24 lg:ml-auto">
+                                <p class="text-sm font-medium pt-1 text-left lg:text-right">Professional employees are there for you
                                     to pick the most amazing and fresh
                                     fruits.</p>
                             </div>
